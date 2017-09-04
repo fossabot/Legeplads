@@ -48,6 +48,9 @@
             .title {
                 font-size: 84px;
             }
+            .subtitle {
+                font-size: 42px;
+            }
 
             .links > a {
                 color: #636b6f;
