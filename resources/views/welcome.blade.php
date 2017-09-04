@@ -7,7 +7,7 @@
 
         <title>Lasse's Legeplads</title>
         <!-- Styles -->
-        <link href="css/app.css">
+        <link href="css/app.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
