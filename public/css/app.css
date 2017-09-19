@@ -52,8 +52,8 @@ body {
 
 .title,
 .subtitle {
-  -webkit-text-stroke: 2px white;
-  -webkit-text-fill-color: #636b6f;
+  -webkit-text-stroke: 3px darkgrey;
+  -webkit-text-fill-color: white;
 }
 
 /*.links > a {
