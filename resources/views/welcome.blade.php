@@ -10,7 +10,7 @@
         <link href="css/app.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center full-height">
             <div class="content">
                 <div class="title m-b-md">
                     Lasse's Legeplads
