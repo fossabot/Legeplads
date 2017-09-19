@@ -11,6 +11,7 @@ body {
 body {
   background: url("/images/pattern.svg");
   background-size: cover;
+  font-size: 16px;
 }
 
 .full-height {
@@ -29,34 +30,25 @@ body {
           justify-content: center;
 }
 
-.position-ref {
-  position: relative;
-}
-
-.top-right {
-  position: absolute;
-  right: 10px;
-  top: 18px;
-}
-
 .content {
   text-align: center;
 }
 
 .title {
-  font-size: 84px;
+  font-size: 5em;
 }
 
 .subtitle {
-  font-size: 42px;
+  font-size: 4em;
 }
 
 .title,
 .subtitle {
   -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: #636b6f;
 }
 
-.links > a {
+/*.links > a {
   color: #636b6f;
   padding: 0 25px;
   font-size: 12px;
@@ -64,7 +56,7 @@ body {
   letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase;
-}
+}*/
 
 .m-b-md {
   margin-bottom: 30px;
