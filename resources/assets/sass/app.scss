@@ -16,6 +16,10 @@ html, body {
   height: 100vh;
   margin: 0;
 }
+body {
+  background: url("/images/pattern.svg");
+  background-size: cover;
+}
 
 .full-height {
   height: 100vh;
