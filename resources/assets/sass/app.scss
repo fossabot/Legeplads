@@ -1,6 +1,5 @@
-
 // Fonts
- @import url("https://fonts.googleapis.com/css?family=Raleway:100,600");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,600");
 
 // Variables
 // @import "variables";
@@ -16,6 +15,7 @@ html, body {
   height: 100vh;
   margin: 0;
 }
+
 body {
   background: url("/images/pattern.svg");
   background-size: cover;
@@ -48,8 +48,12 @@ body {
 .title {
   font-size: 84px;
 }
+
 .subtitle {
   font-size: 42px;
+  &:hover {
+  text-shadow: #636b6f;
+  }
 }
 
 .links > a {
