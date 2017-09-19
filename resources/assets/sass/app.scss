@@ -1,11 +1,11 @@
-// Fonts
+/* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,600");
 
-// Variables
-// @import "variables";
+/* Variables
+@import "variables"; */
 
-// Bootstrap
-// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+/* Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap"; */
 
 html, body {
   background-color: #fff;
@@ -27,8 +27,11 @@ body {
 }
 
 .flex-center {
+  -webkit-box-align: center;
   align-items: center;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
 }
 
