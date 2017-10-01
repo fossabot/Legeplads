@@ -10,10 +10,10 @@
     <link href="css/app.css" rel="stylesheet" type="text/css">
 </head>
     <body>
-    <header>
-        @include('layout.components.menu')
-    </header>
         <div class="flex-center full-height">
+            <header>
+                @include('layout.components.menu')
+            </header>
             <div class="content">
                 <div class="title m-b-md animated pulse infinite">
                     STREAM STARTING SOON-ISH
