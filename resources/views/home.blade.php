@@ -13,7 +13,7 @@
     <header>
         @include('layout.components.menu')
     </header>
-        <div class="flex-center">
+        <div class="flex-center full-height">
             <div class="content">
                 <div class="title m-b-md animated pulse infinite">
                     STREAM STARTING SOON-ISH
