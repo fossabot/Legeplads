@@ -10,6 +10,9 @@
     <link href="css/app.css" rel="stylesheet" type="text/css">
 </head>
     <body>
+    <header>
+        @include('layout.components.menu')
+    </header>
         <div class="flex-center full-height">
             <div class="content">
                 <div class="title m-b-md animated pulse infinite">
