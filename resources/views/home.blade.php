@@ -11,7 +11,10 @@
 </head>
 <body>
 <header>
-    {{ $yes = false }}
+    {{
+    $yes = false,
+    $streamText = "I'LL BE RIGHT BACK!"
+     }}
     @if($yes === true)
         @include('layout.components.menu')
     @else
@@ -20,7 +23,7 @@
 <div class="flex-center full-height">
     <div class="content">
         <div class="title m-b-md animated pulse infinite">
-            STREAM STARTING SOON-ISH
+            {{ $streamText }}
         </div>
     </div>
 </div>
