@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    {{ $yes = true }}
+    {{ $yes = false }}
     @if($yes === true)
         @include('layout.components.menu')
     @else
